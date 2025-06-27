@@ -24,6 +24,13 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .card {
@@ -41,13 +48,16 @@ main {
 .card-container__content {
   display: flex;
   gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .text {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 70%;
+  flex: 1;
 }
 
 .text p {
@@ -70,9 +80,10 @@ main {
 .price {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  align-items: end;
-
+  width: 120px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .not-discounted {
