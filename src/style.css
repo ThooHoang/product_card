@@ -23,8 +23,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  
+  min-height: 100vh;
+  padding: 2rem 20px;
 }
 
 .cards-container {
@@ -99,4 +99,21 @@ main {
 
 .discounted {
   color: #FF2600;
+}
+
+
+@media (max-width: 615px) {
+  main {
+    min-height: 100svh;
+    padding: 1rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-container__content {
+    gap: 1.5rem;
+  }
 }
