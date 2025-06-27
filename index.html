@@ -3,26 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Product Card | UI </title>
   </head>
   <body>
     <main>
       <div class="card">
         <div class="card-container">
-          <img src="" alt="">
+          <img src="src/assets/Product.png" alt="PlayStation">
           <div class="card-container__content">
             <div class="text">
               <h3>Sony PlayStation 5 Pro</h3>
               <p>Experience next-level gaming performance with the Sony PlayStation 5 Pro.</p>
               <div class="action">
-                <button>+</button>
-                <a href="">Add to your oder</a>
+                <button><i class="fa-solid fa-plus"></i></button>
+                <a href="">Add to your order</a>
               </div>
             </div>
             <div class="price">
-              <h2>$599.99</h2>
-              <h2>$499.99</h2>
+              <h2 class="not-discounted">$599.99</h2>
+              <h2 class="discounted">$499.99</h2>
             </div>
           </div>
         </div>

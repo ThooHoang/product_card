@@ -7,3 +7,79 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight:600;
+}
+
+
+body {
+  background-color: #434343;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #FDFDFD;
+  padding: 2rem;
+  border-radius: 12px;
+
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-container__content {
+  display: flex;
+  gap: 3rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+
+.text p {
+  color: #8B919A;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action button {
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid #8B919A;
+  background-color: transparent;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: end;
+
+}
+
+.not-discounted {
+  text-decoration: line-through;
+  color: #585B5E;
+}
+
+.discounted {
+  color: #FF2600;
+}
